@@ -1,0 +1,163 @@
+body,img,ul,li{
+    background: rgb(224, 224, 224);
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(42, 160, 238);
+}
+
+#header{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: solid tomato 1px;
+}
+
+.header{
+    width: 998px;
+    height: 40px;
+    /* background: yellow; */
+    margin: auto;
+}
+
+.header-left{
+    width: 300px;
+    height: 40px;
+    /* background: blueviolet; */
+    float: left;
+    line-height: 40px;
+}
+
+.header-left>div{
+    float: left;
+}
+
+.header-left>div:nth-child(2){
+    margin-left: 20px;
+}
+
+
+.header-right{
+    width: 300px;
+    height: 40px;
+    float: right;
+    line-height: 40px;
+}
+
+.header-right>div{
+    float: right;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+/* nav */
+#nav{
+    width: 100%;
+    margin-top: 10px;
+    background: white;
+    height: 40px;
+}
+
+.nav{
+    width: 998px;
+    margin: auto;
+}
+
+.nav-left{
+    width: 114px;
+    height: 40px;
+    float: left;
+    background: burlywood;
+
+}
+
+.nav-middle{
+    float: left;
+    background: cadetblue;
+    height: 40px;
+    width: 600px;
+}
+
+.nav-right{
+    float: right;
+    background: rgb(210, 30, 156);
+    height: 40px;
+    width: 200px;
+}
+
+/* banner */
+
+#banner{
+    width: 100%;
+    margin:auto;
+    background: white;
+    clear: both;
+    
+}
+
+.banner{
+    height: 600px;
+    width: 998px;
+    background: cornflowerblue;
+    margin: auto;
+
+}
+
+.banner-left{
+    width: 114px;
+    height: 700px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.banner-middle{
+    height: 600px;
+    width: 684px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.banner-right{
+    height: 600px;
+    width: 200px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.banner-bottom{
+    height: 100px;
+    width: 884px;
+    background: rgb(230, 141, 8);
+    float: right;
+}
+
+
+
+/* banner
+
+calc(xxx)
+*/
+
+
+
+
+

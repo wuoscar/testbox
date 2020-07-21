@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1954245_wid03fe57yi.css" />
+    <script src="https://at.alicdn.com/t/font_1954245_ehkjeiczdu.js"></script>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1954245_wid03fe57yi.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class="header">
+            <div class="header-left">
+                <div>
+                    <span>IT星球</span>
+                </div>
+
+                <div>
+                    <a href="">
+                        <svg class="icon" aria-hidden="ture">
+                            <use xlink:href="#icon-xinwendongtai" />
+                        </svg>
+                        核心内容
+                        <i class="icon-arrow-down iconfont"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="header-right">
+                <div>
+                    <a href="">
+                        <svg class="icon" aria-hidden="ture">
+                            <use xlink:href="#icon-credit-level" />
+                        </svg>
+                        收藏
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        注册
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <svg class="icon" aria-hidden="ture">
+                            <use xlink:href="#icon-operation" />
+                        </svg>
+                        登录
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 顶部结束 -->
+    <!-- 导航栏 -->
+    <div id="nav">
+        <div class="nav">
+            <div class="nav-left"></div>
+            <div class="nav-middle"></div>
+            <div class="nav-right"></div>
+        </div>
+
+    </div>
+
+    <!-- 导航栏结束 -->
+    <!-- banner栏 -->
+    <div id="banner">
+        <div class="banner">
+            <div class="banner-left"></div>
+            <div class="banner-middle"></div>
+            <div class="banner-right"></div>
+            <div class="banner-bottom"></div>
+        </div>
+
+    </div>
+    <!-- banner栏结束 -->
+</body>
+
+</html>
+
+
+<!-- 
+    1.一旦浮动，dispaly属性失效，可以设置宽高
+    2.行内元素没有宽高属性，不占一行
+    3.在不设置宽高的情况下，让父类可以感知之类高度
+        overflow:hidden;
+        float:right or left ;
+    4.clear:both; 清除两边浮动，新起一行
+    5.代码区第一行输入！并回车，就能得到如下图HTML标准格式的代码了
+    6.relative相对定位以后，元素原来的物理位置依然被占用
+        absolute绝对定位的元素不占用原有物理位置，以其他元素作为参照物移动
+        . 如果元素外层元素非static,则按外层元素做参考点
+        .寻找距离最近的外层元素做参考定位
+    7.z-index 值对定位元素有效，指定显示层级
+    8.display设置元素类型：行内元素inline、块状元素block、行内块状inline-block
+        单元格形式 table-cell  隐藏none(不占物理位置)
+        . visibility:hidden 隐藏占物理位置  - visible显示
+    9.margin 上下合并，以最大值控制，左右不合并
+        . 父子 margin合并，父加border后不合并
+        . 浮动元素的外边距不会合并
+        . 允许使用负外边距
+    10. border style不设置不显示线 不写宽默认3px  dotted/solid/double(>=3px)/dashed/none
+    11. . box-sizing:
+        content-box 标准盒  border 和padding 要计入盒子宽高，技术时要减去
+        border-box  怪异盒  包含在盒子宽高
+-->
